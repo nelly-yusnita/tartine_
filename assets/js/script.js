@@ -70,14 +70,14 @@ const homeSwiper = new Swiper(".home__container", {
 // ===== MENU CAROUSEL ===== //
 const menuSwiper = new Swiper('.menu__container', {
 	spaceBetween: 24,
-	loop: true,
+	// loop: true,
 	grabCursor: true,
 
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-		dynamicBullets: true,
-	},
+	navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
+
 	breakpoints: {
 		640: {
 			slidesPerView: 2,
