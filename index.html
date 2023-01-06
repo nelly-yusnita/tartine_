@@ -53,14 +53,110 @@
 				<img src="assets/img/nav_img.png" alt="nav image" class="nav__img">
 			</div>
 
-			<div class="hamburger__nav" id="menu-button">
-				<span class="hamburger__top"></span>
-				<span class="hamburger__middle"></span>
-				<span class="hamburger__bottom"></span>
+			<div class="nav__buttons">
+				<div class="nav__shop" id="cart-shop">
+					<i class='bx bx-shopping-bag' ></i>
+				</div>
+
+				<div class="hamburger__nav" id="menu-button">
+					<span class="hamburger__top"></span>
+					<span class="hamburger__middle"></span>
+					<span class="hamburger__bottom"></span>
+				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- ===== end header ===== -->
+
+	<!-- ===== CART ===== -->
+	<div class="cart" id="cart"> 
+		<i class='bx bx-x cart__close' id="cart-close"></i>
+
+		<h2 class="cart__title-center">My Cart</h2>
+
+		<div class="cart__container">
+			<!-- 1 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/cake-2.png" alt="cart image" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Menu Title</h3>
+					<span class="cart__price">$12.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+
+			<!-- 2 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/cake-12.png" alt="cart image" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Menu Title</h3>
+					<span class="cart__price">$12.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+
+			<!-- 3 -->
+			<article class="cart__card">
+				<div class="cart__box">
+					<img src="assets/img/cake-1.png" alt="cart image" class="cart__img">
+				</div>
+
+				<div class="cart__details">
+					<h3 class="cart__title">Menu Title</h3>
+					<span class="cart__price">$12.00</span>
+
+					<div class="cart__amount">
+						<div class="cart__amount-content">
+							<span class="cart__amount-box">
+								<i class='bx bx-minus' ></i>
+							</span>
+							<span class="cart__amount-number">1</span>
+							<span class="cart__amount-box">
+								<i class='bx bx-plus' ></i>
+							</span>
+						</div>
+						<i class='bx bx-trash-alt cart__amount-trash' ></i>
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<div class="cart__prices">
+			<span class="cart__prices-item">3 items</span>
+			<span class="cart__prices-total">$36.00</span>
+		</div>
+	</div>
+	<!-- ===== end cart ===== -->
 
 	<!-- ===== MAIN ===== -->
 	<main class="main">
@@ -181,7 +277,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -199,7 +295,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -217,7 +313,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -235,7 +331,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -253,7 +349,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -271,7 +367,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -289,7 +385,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -307,7 +403,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -325,7 +421,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -343,7 +439,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -361,7 +457,7 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -379,7 +475,25 @@
 
 	               	<span class="menu__description">Lorem, ipsum.</span>
 
-	               	<span class="menu__price">$10.99</span>
+	               	<span class="menu__price">$12.00</span>
+
+	               	<button class="buy__button">
+	               		<span>Order Now</span>
+		                  <i class='bx bx-shopping-bag'></i>
+		               </button>
+						</div>
+					</div>
+
+					<!-- 13 -->
+					<div class="swiper-slide">
+						<div class="menu__card">
+							<h3 class="menu__name">Menu Title</h3>
+
+							<img src="assets/img/cake-13.png" alt="menu image" class="menu__img">
+
+	               	<span class="menu__description">Lorem, ipsum.</span>
+
+	               	<span class="menu__price">$12.00</span>
 
 	               	<button class="buy__button">
 	               		<span>Order Now</span>
@@ -666,7 +780,7 @@
 			</div>
 		</div>
 
-		<span class="footer__copy container">&#169;2022 &mdash; By <a href="https://nelly-yusnita.github.io/portfolio/" class="portfolio__link" target="_blank">Nelly Yusnita</a></span>
+		<span class="footer__copy container">&#169;2022 &mdash; By <a href="https://nelly-yusnita.github.io/miniportfolio/" class="portfolio__link" target="_blank">Nelly Yusnita</a></span>
 
 		<span class="footer__note container">This website is demo for testing purpose, no orders shall be fulfilled.</span>
 

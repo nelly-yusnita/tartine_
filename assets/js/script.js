@@ -50,6 +50,28 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader);
 // ===== end change background header ===== //
 
+// ===== SHOW CART ===== //
+const cart = document.getElementById('cart'),
+      cartShop = document.getElementById('cart-shop'),
+      cartClose = document.getElementById('cart-close');
+
+// Cart Show
+// Validate if constant exists
+if(cartShop){
+   cartShop.addEventListener('click', () =>{
+      cart.classList.add('show-cart')
+   })
+}
+
+// Cart Hidden
+// Validate if constant exists
+if(cartClose){
+   cartClose.addEventListener('click', () =>{
+      cart.classList.remove('show-cart')
+   })
+}
+// ===== end show cart ===== //
+
 // ===== HOME SLIDES ===== //
 const homeSwiper = new Swiper(".home__container", {
 	spaceBetween: 30,
